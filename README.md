@@ -8,18 +8,18 @@ Using the included mockup.jpg and the content on the last page of this document,
 
 ### Acceptance Criteria
 
-* [ ] Write appropriate HTML markup for the provided content.
-* [ ] Add CSS to style the HTML appropriately to create the design in the mockup.
+* [X] Write appropriate HTML markup for the provided content.
+* [X] Add CSS to style the HTML appropriately to create the design in the mockup.
 
 ### Constraints
 
-* [ ] HTML is well formed and organized.
-* [ ] Implemented using modern technique and best practices.
-* [ ] Final site followd WCAG 2.2 standards where possible/applicable.
-* [ ] Use of Frameworks/libraries is acceptable but not required.
-* [ ] Interactive elements and hover states are recommended.
-* [ ] OPTIONAL: Implement a responsive layout with support for multiple screen sizes.
-* [ ] Final site is published in an online platform to be shared.
+* [X] HTML is well formed and organized.
+* [X] Implemented using modern technique and best practices.
+* [X] Final site followd WCAG 2.2 standards where possible/applicable.
+* [X] Use of Frameworks/libraries is acceptable but not required.
+* [X] Interactive elements and hover states are recommended.
+* [X] OPTIONAL: Implement a responsive layout with support for multiple screen sizes.
+* [X] Final site is published in an online platform to be shared.
 
 ### Resources
 
@@ -40,3 +40,26 @@ Light Blue: hex #c1edfb, rgba(193, 237, 251, 1)
 Text: hex #002554, rgba(0, 37, 84, 1)
 
 Background Overlay:  hex #003fb0, rgba(0, 37, 84, 1), background-blend-mode: multiply
+
+## Implementation Notes
+
+**[Final Implementation is available here](https://jrastetterpm.github.io/ASU/#)**.
+
+Some minor deviations from the mockup were made to enhace accessibility and performance. Details listed below.
+
+* Main link text size and hit zone: Increased text size and padding to make it easier to read and interact with on mobile devices.
+* Padding and background color on cards: Increased card size and contrast between the text and background to make it easier to read and interact with.
+* Responsive Layout: Added breakpoints so that links and cards adjust to viewport size to make it easier to use from a variety of devices.
+
+### Performance Optimization
+
+* Minified all styles and javascipt resources.
+* Preloaded all critical resource to optimize initial load time.
+* Converted all images for moder webp format to reduce load.
+
+### Accessibility and SEO Testing
+
+* Ran a Lighthouse report and did some manual testing of tab order to ensure a high degree of accessibility.
+* Added keywords, and metadata headers to improve SEO and discoverability.
+
+[Full lighthouse report is available here.](./Lighthouse_report.html)
